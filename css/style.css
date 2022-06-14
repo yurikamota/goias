@@ -1,0 +1,45 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../imagens/goias_.png);
+    background-size: cover;
+}
+
+.title{
+    text-align: right;
+    color: rgb(236, 235, 235);
+    margin: 60px 60px 0 0;
+}
+
+.title h1{
+    font-family: sans-serif;
+    
+    font-size: 75px;
+}
+
+ul {
+    text-align: right;
+    margin: 1px 60px 0 0;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    
+}
+
+a {
+    background: rgba(255, 254, 254);
+    display: block;
+    padding: 15px;
+    color: rgb(53, 53, 80);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 25px;
+}
+
+a:hover{
+    color:  rgba(255, 254, 254);
+    background: rgb(53, 53, 80);
+}
